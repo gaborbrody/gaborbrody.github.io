@@ -1,6 +1,19 @@
 <html>
 <head>
     <title>Gabor Brody</title>
+    <style>
+        /* Vertically center the little ball/star icons against the text
+           baseline of the references. The legacy align="MIDDLE" attribute
+           on <img> doesn't reliably do this across modern browsers. */
+        img[src$="ball.gif"],
+        img[src$="star8.gif"],
+        img[src$="bluestar.gif"] {
+            vertical-align: middle;
+            height: 18px;
+            width: auto;
+            margin-right: 4px;
+        }
+    </style>
 </head>
 <body bgcolor="#000000" background="images/starry.jpg" text="#ffff00" link="#00ff00" vlink="#ffffff">
 <link rel="icon" type="image/jpg" href="images/kanizsa.jpg">
